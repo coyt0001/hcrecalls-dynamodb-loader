@@ -1,0 +1,25 @@
+{
+  "name": "hcrecalls-dynamodb-loader",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Loads test data into DynamoDB for Alexa POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests right now.\"",
+    "DELETE-ALL": "sh DELETE-ITEMS.sh",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coyt0001/hcrecalls-dynamodb-loader.git"
+  },
+  "author": "Paul Coyte",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.271.1",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.1.2",
+    "prompt-promise": "^1.0.3",
+    "ramda": "^0.25.0"
+  }
+}
